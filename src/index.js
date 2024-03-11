@@ -19,7 +19,6 @@ app.post("/", (req, res) => {
     });
 });
 
-console.log("hello wolrd")
 
 app.listen(port, () => {
     console.log(`It's alive on http://localhost:${port}`)
